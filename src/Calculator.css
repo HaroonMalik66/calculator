@@ -1,0 +1,61 @@
+.calcBox {
+  border: 5px double rgb(0, 0, 0);
+  background-image: linear-gradient(to top, #6d6666, rgb(206, 205, 205));
+  display: inline-flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5%;
+}
+.screen,
+.inputScreen {
+  background-color: black;
+}
+.inputScreen {
+  width: 150px;
+  height: 40px;
+  margin: 5px;
+  color: white;
+}
+.output {
+  color: white;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  /* margin: auto 10%; */
+}
+.operations {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+
+.numbers .btn {
+  background: #0f0f0f;
+  color: black;
+  background-image: linear-gradient(to top, #6d6666, rgb(206, 205, 205));
+  font-size: 1.5rem;
+  padding: 8% 12%;
+}
+
+.operations .btn {
+  background: #0f0f0f;
+  color: bisque;
+  background-image: linear-gradient(to bottom, #0f0f0f, rgb(40, 0, 187));
+  font-size: 2rem;
+  padding: 6px 30px;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #0f0f0f, red);
+  background-image: -moz-linear-gradient(top, #0f0f0f, red);
+  background-image: -ms-linear-gradient(top, #0f0f0f, red);
+  background-image: -o-linear-gradient(top, #0f0f0f, red);
+  background-image: linear-gradient(to top, #0f0f0f, red);
+  text-decoration: none;
+}
